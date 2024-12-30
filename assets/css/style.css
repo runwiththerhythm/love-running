@@ -1,0 +1,41 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+
+/* Asterisk wildcard selector to over ride default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*general styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    /* generic styles*/
+    color:#3a3a3a 
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* header */
+header {
+    background-color: blueviolet;
+}
+
+/* main content */
+main {
+    background-color: aqua;
+    
+
+}
+
+/* footer */
+footer {
+    background-color: aquamarine;
+    /*make main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+}
